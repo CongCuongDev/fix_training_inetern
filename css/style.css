@@ -1,0 +1,340 @@
+.accuracy {
+  position: absolute;
+  width: 589px;
+  height: 649px;
+  left: 659px;
+  top: 80px;
+  overflow: hidden;
+  background: linear-gradient(154.01deg, rgba(37, 75, 134, 0.6) -4.68%, rgba(37, 75, 134, 0) 117.94%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+}
+.accuracy-container {
+  text-align: center;
+  padding-top: 15px;
+}
+.accuracy-text {
+  font-size: 34px;
+  font-weight: 700;
+}
+.accuracy-btn {
+  font-size: 17px;
+  font-weight: 400;
+}
+
+.import {
+  padding-top: 68px;
+  text-align: center;
+}
+.import-text {
+  width: 60px;
+  height: 60px;
+  background: linear-gradient(181.38deg, rgba(255, 255, 255, 0.284) -152.18%, rgba(255, 255, 255, 0.12) 130.91%);
+  backdrop-filter: blur(5px);
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 35px;
+  text-align: center;
+  color: #fff;
+}
+
+.footer {
+  text-align: center;
+}
+
+.item {
+  text-align: center;
+}
+.item-btn {
+  width: 400px;
+  height: 45px;
+  text-align: center;
+  background: linear-gradient(152.03deg, #1890ff -19.27%, #0069cc 109.91%);
+  box-shadow: 0px 5px 25px rgba(24, 144, 255, 0.2), 0px 3px 0px rgba(24, 144, 255, 0.2);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #fff;
+  margin-top: 120px;
+}
+
+strong {
+  color: #1890ff;
+}
+
+.finish {
+  text-align: center;
+  padding: 15px;
+}
+.finish-logo {
+  width: 55px;
+  padding-bottom: 15px;
+}
+.finish-text {
+  color: #fff;
+  padding-bottom: 15px;
+}
+.finish-btn {
+  font-size: 20px;
+}
+
+.finish-item {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+}
+.finish-item-check {
+  width: 51px;
+  padding-right: 15px;
+}
+.finish-item-text {
+  color: #fff;
+  font-size: 28px;
+}
+
+.notification {
+  text-align: center;
+}
+.notification-decs {
+  color: #fff;
+  padding-top: 30px;
+  line-height: 24px;
+}
+.notification-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 25px;
+  color: #fff;
+}
+.notification-icon-text {
+  padding-right: 10px;
+}
+
+.login-input {
+  padding-top: 55px;
+  position: relative;
+}
+.login-input-icon {
+  position: absolute;
+  right: 0;
+  top: 145px;
+}
+.login-input-warning {
+  position: absolute;
+  right: 0;
+  top: 83px;
+}
+
+.login-item {
+  text-align: center;
+}
+.login-item-btn1 {
+  width: 400px;
+  height: 45px;
+  text-align: center;
+  background: linear-gradient(152.03deg, #1890ff -19.27%, #0069cc 109.91%);
+  box-shadow: 0px 5px 25px rgba(24, 144, 255, 0.2), 0px 3px 0px rgba(24, 144, 255, 0.2);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  color: #fff;
+  margin-top: 35px;
+}
+.login-item-btn2 {
+  width: 400px;
+  height: 45px;
+  text-align: center;
+  background: linear-gradient(0deg, #ffffff, #ffffff), linear-gradient(162.38deg, #ffffff -51.43%, rgba(255, 255, 255, 0) 154.33%);
+  box-shadow: 0px 5px 25px rgba(24, 144, 255, 0.2), 0px 3px 0px rgba(24, 144, 255, 0.6);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: 700;
+  color: #004182;
+  margin-top: 30px;
+}
+
+.forget {
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+}
+
+.focus {
+  text-align: center;
+  padding: 15px;
+}
+.focus-check {
+  width: 50px;
+  margin: 20px;
+}
+.focus-text {
+  color: #fff;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.input {
+  position: relative;
+}
+.input-error {
+  position: absolute;
+  right: 0;
+  top: 90px;
+}
+.input-checkmark {
+  position: absolute;
+  right: 0;
+  top: 25px;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+}
+
+.container {
+  position: relative;
+  max-width: 1920px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.login {
+  background: #012b65 url("/img/Group 37874.svg") no-repeat center;
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+}
+.login_bg img {
+  position: absolute;
+  width: 450px;
+  top: 100px;
+  left: 100px;
+  transform: translate(-50px, 100px);
+}
+
+.form_login {
+  position: absolute;
+  width: 589px;
+  height: 649px;
+  left: 750px;
+  top: 80px;
+  overflow: hidden;
+  background: linear-gradient(154.01deg, rgba(37, 75, 134, 0.6) -4.68%, rgba(37, 75, 134, 0) 117.94%);
+  filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25)) drop-shadow(0px 8px 10px rgba(0, 0, 0, 0.25));
+  backdrop-filter: blur(10px);
+  padding: 40px;
+  border-radius: 20px;
+}
+
+.logo {
+  width: 55px;
+  padding-bottom: 15px;
+}
+
+.from_login-text {
+  text-align: center;
+  padding: 15px;
+}
+
+h3 {
+  color: #fff;
+  padding: 10px;
+}
+
+span {
+  color: #fff;
+}
+
+.desc {
+  font-size: 25px;
+  width: 100%;
+  height: 35px;
+  margin-right: 39px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px solid #779dff;
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 30px;
+  position: relative;
+  margin-bottom: 20px;
+}
+.btn-item-text {
+  font-size: 12px;
+  color: #cf6679;
+}
+
+.left {
+  position: absolute;
+  left: 221px;
+  color: #fff;
+}
+
+.right {
+  position: absolute;
+  right: 0;
+  color: #fff;
+}
+
+.desc_btn {
+  font-size: 25px;
+  width: 100%;
+  height: 35px;
+  border: none;
+  outline: none;
+  background: transparent;
+  color: #fff;
+  border-bottom: 1px solid #779dff;
+}
+
+.button {
+  width: 400px;
+  height: 45px;
+  text-align: center;
+  background: linear-gradient(152.03deg, #1890ff -19.27%, #0069cc 109.91%);
+  box-shadow: 0px 5px 25px rgba(24, 144, 255, 0.2), 0px 3px 0px rgba(24, 144, 255, 0.2);
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  font-weight: bold;
+  color: #fff;
+}
+
+.footer {
+  padding-top: 30px;
+  text-align: center;
+}
+
+label {
+  color: #fff;
+}
+
+.footer-btn {
+  color: #fff;
+  font-size: 14px;
+  text-align: center;
+  line-height: 20px;
+  padding-top: 20px;
+}
+
+/*# sourceMappingURL=style.css.map */

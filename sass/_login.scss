@@ -1,0 +1,62 @@
+.login-input {
+  padding-top: 55px;
+  position: relative;
+  &-icon {
+    position: absolute;
+    right: 0;
+    top: 145px;
+  }
+  &-warning {
+    position: absolute;
+    right: 0;
+    top: 83px;
+  }
+}
+.login-item {
+  text-align: center;
+  &-btn1 {
+    width: 400px;
+    height: 45px;
+    text-align: center;
+    background: linear-gradient(152.03deg, #1890ff -19.27%, #0069cc 109.91%);
+    box-shadow: 0px 5px 25px rgba(24, 144, 255, 0.2), 0px 3px 0px rgba(24, 144, 255, 0.2);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 35px;
+  }
+  &-btn2 {
+    width: 400px;
+    height: 45px;
+    text-align: center;
+    background: linear-gradient(0deg, #ffffff, #ffffff),
+      linear-gradient(162.38deg, #ffffff -51.43%, rgba(255, 255, 255, 0) 154.33%);
+    box-shadow: 0px 5px 25px rgba(24, 144, 255, 0.2), 0px 3px 0px rgba(24, 144, 255, 0.6);
+    border-radius: 30px;
+    border: none;
+    outline: none;
+    font-weight: 700;
+    color: #004182;
+    margin-top: 30px;
+  }
+}
+.forget {
+  position: absolute;
+  right: 0;
+  font-size: 12px;
+}
+.focus {
+  text-align: center;
+  padding: 15px;
+  &-check {
+    width: 50px;
+    margin: 20px;
+  }
+  &-text {
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+  }
+}

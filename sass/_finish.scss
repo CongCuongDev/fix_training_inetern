@@ -1,0 +1,47 @@
+.finish {
+  text-align: center;
+  padding: 15px;
+  &-logo {
+    width: 55px;
+    padding-bottom: 15px;
+  }
+  &-text {
+    color: #fff;
+    padding-bottom: 15px;
+  }
+  &-btn {
+    font-size: 20px;
+  }
+}
+.finish-item {
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  padding-top: 70px;
+  &-check {
+    width: 51px;
+    padding-right: 15px;
+  }
+  &-text {
+    color: #fff;
+    font-size: 28px;
+  }
+}
+.notification {
+  text-align: center;
+  &-decs {
+    color: #fff;
+    padding-top: 30px;
+    line-height: 24px;
+  }
+  &-icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 25px;
+    color: #fff;
+    &-text {
+      padding-right: 10px;
+    }
+  }
+}
